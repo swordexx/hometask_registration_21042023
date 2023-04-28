@@ -1,0 +1,24 @@
+https://docs.qameta.io/allure/
+
+#1
+2.1.4. Manual installation
+
+    Download the latest version as zip archive from Maven Central - Download allure to local machine - https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/
+
+    Unpack the archive to allure-commandline directory.
+
+    Navigate to bin directory.
+
+    Use allure.bat for Windows or allure for other Unix platforms.
+
+    Add allure to system PATH.
+
+#2
+    Rung Maven clean
+
+#3
+Generate allure report
+
+    allure generate ./allure-results --clean
+
+

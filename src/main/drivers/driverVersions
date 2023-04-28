@@ -1,0 +1,10 @@
+Current driver versions downloaded and available
+geckodriver - 0.32.0-win32
+chromedriver - 111.0.5563.64-vin32
+
+For more versions please check official websites
+geckodriver - https://github.com/mozilla/geckodriver/tags
+chromedriver - https://chromedriver.chromium.org/downloads
+
+Current min browser version for geckodriver >=96 - https://github.com/mozilla/geckodriver/releases/tag/v0.31.0
+Current min browser version for chromedriver =111 - https://chromedriver.storage.googleapis.com/111.0.5563.64/notes.txt

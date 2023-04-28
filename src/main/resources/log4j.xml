@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appender>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d [%-6p] %c{1} - %m%n"/>
+        </Console>
+
+        <File name="logfile" fileName=".\logs\MyTestFramework.log">
+            <PatternLayout pattern="%d{yyyy-mm-dd HH:mm:ss.SSSS} [%t] %-tlevel %logger{36} -%ms%n"/>
+        </File>
+    </Appender>
+
+    <Loggers>
+        <Root level="all">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="logfile" level="info"/>
+        </Root>
+    </Loggers>
+</Configuration>
